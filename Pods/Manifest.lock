@@ -1,0 +1,18 @@
+PODS:
+  - Arcane (1.2.1)
+  - Transloadit (1.0.4):
+    - TUSKit
+  - TUSKit (1.3.10)
+
+DEPENDENCIES:
+  - Arcane
+  - Transloadit
+
+SPEC CHECKSUMS:
+  Arcane: 870689a8ba7145a7dec0c2d7d7836b50c9f12636
+  Transloadit: 7591a0ea439ea5f6a37b5c051055e350fee878da
+  TUSKit: 20493740fd099eccc529014ae0a32230b4b9a7a0
+
+PODFILE CHECKSUM: 043343842d0a511628313f1053817c174de69878
+
+COCOAPODS: 1.4.0

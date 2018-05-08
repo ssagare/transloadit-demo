@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D9451FB8EA050DC04D344AC44DD4D0 /* TUSAssetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0FFD7EF5C852A57C73E6E2D1125A82 /* TUSAssetData.m */; };
+		0D154BB25CF40813FB9E3CEE7C2E472B /* TUSSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 938ABAB8804C6776953AC5C175F0A842 /* TUSSession.m */; };
+		0FD36185FE2FDAB8D2BF08A9B5CBEB70 /* TUSAssetData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DEB7D822F0F209A9D0262D8666FC3B0 /* TUSAssetData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		194FE406F6056611379E8429858923D3 /* TUSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D60CA852285CB782DCF11741A7E2ADE /* TUSKit-dummy.m */; };
+		1CE048008F546961178B5A09C4692B7A /* Template.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD9C2E5E06D76FF3D288E652DFF5BA7 /* Template.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		27DFCCB4E0CEEBB5FA1CA637182422B6 /* TUSFileData.h in Headers */ = {isa = PBXBuildFile; fileRef = D4062DD4F2803562DEB7A61FA2C12278 /* TUSFileData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A94EBB41FCDFCCEB1A18407227E92DE /* TUSFileUploadStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A2863C77F42A0463AE5E84C105E0269 /* TUSFileUploadStore.m */; };
+		2AE3CFDB555047D1C899B552CCED003A /* Pods-SminqTransloadItDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 284AAD6CCAAE9564964B3E3F5F8D64AA /* Pods-SminqTransloadItDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF5C18C50471A43483BC768AE23959C /* NSString+Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DB32F9084F04C5EFC4AC72631906687 /* NSString+Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3129846E585E5622C2C42940B5CDDB55 /* TUSFileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 079B9FA1210F43FAC88D1235256BEEDD /* TUSFileData.m */; };
+		33A365DBE30C7AEFF92683D27131D1B4 /* Pods-SminqTransloadItDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFAC9D6D07057FCFA69C75ECC47E1ED /* Pods-SminqTransloadItDemo-dummy.m */; };
+		3B41F0A97376F800A03E3531A52132DC /* TransloaditProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B911FA0CB82249887D7760B17772173 /* TransloaditProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C475C8D53D31A6CB49CCC42DEE9365F /* Transloadit.h in Headers */ = {isa = PBXBuildFile; fileRef = D0412E78CB7726F0CB890324BE827C63 /* Transloadit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		425C8E38D1000C2F306845F55EC9661A /* Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7331D60900870EB2D17245AD22C5518D /* Assembly.m */; };
+		47988086DE6E28A8C651F791EE18D4DB /* TUSErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FE7667B230C75D2FA1DC78361F93F9 /* TUSErrors.m */; };
+		4A328C0585B86271CE77E46F8A261FAB /* TransloaditRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 60064B4BEA3B348665E07368BC6573B2 /* TransloaditRequest.m */; };
+		4B61B324394617B26B0EBD1426A73719 /* Step.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E1EFB5962AFC2FDD04894FB00FB1F2 /* Step.m */; };
+		544695999AEBD4F323067C001E7DCE3A /* TUSResumableUpload.h in Headers */ = {isa = PBXBuildFile; fileRef = 817C341980F6536F2AF9EA62C6572095 /* TUSResumableUpload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55DF5B14DACD40F51908D01954C137CE /* TransloaditRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = F04AD86C507ACC43A75BD150CC2AAAD7 /* TransloaditRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58E8BCF88A523B71BA722DFE582F5E34 /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1A28478B32235DA5B56AD8600A1898 /* AES.swift */; };
+		58E934B488D8BC92AD28A3432D57581C /* APIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D10E2870BF58C0C7B8473E24344403C /* APIObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		590DF9F94A3C32433F4601F14CBA8B20 /* TransloaditDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FA6A2C9C292B56E31810308DFED9E1DA /* TransloaditDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D84C6C8E7A9A6DFAD14028F749B2C3A /* Transloadit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF0EA6CF7F13A31722A4E728BEFBB24 /* Transloadit-dummy.m */; };
+		6695EC0AB76575C0B2B1F8153FAA52D1 /* TUSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59850CB1FB7D75A568DD71C68BE9EC8 /* TUSKit.framework */; };
+		68423D18C7ED6C250DF10ED725851D8E /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DC06E5ABBEEB225BE83671AD290B2 /* NSString+Utils.m */; };
+		6A11CB1B8B3352CBF289FBE2DAA5E00B /* Step.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6B1ECB47BF122C4080C20F178D4C55 /* Step.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E5E525044A6FEB4221A8D5E82728071 /* TUSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2B7710BBB8F9DC634DDC5DE288E9F7 /* TUSKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70785AF620846E5640342CD0E044A070 /* TUSData.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEA68B3D8016C2705B44DD49AA92816 /* TUSData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B0129F289B2AEA18529B740EB4286E /* TUSUploadStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9591853D5F5C164062C611D4138DD5 /* TUSUploadStore.m */; };
+		7798058A2D23FD9530525EB4849CDC80 /* Transloadit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89999121D0D7B8B3BE09D27F2F95CE51 /* Transloadit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78E57A79E7E3D5F7229CE119F7DC5301 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693F6CEB85A64F5F0826AFCDECE30A8E /* Foundation.framework */; };
+		80C8A9ACA3F6D19C2BA236A96D3885F5 /* URLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE97762D2B2BE6C4820C98211FB0E72 /* URLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8382FBE22BC03707667F3DC77717B03C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693F6CEB85A64F5F0826AFCDECE30A8E /* Foundation.framework */; };
+		88351AED30E8A5B40DFDC807DAF6B8D5 /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC1A78F5DB5A2ABFE924E321ADDBE10 /* Base64.swift */; };
+		88D96D745A61B0529F768AED95A9B6AD /* TUSResumableUpload+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F351E07BFF92E70E4060EBC30997CBC /* TUSResumableUpload+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95732BE0BC10FDF0EB23F609327C525B /* module.modulemap in Sources */ = {isa = PBXBuildFile; fileRef = F9E50F06F6BDCBDEFE5B7CA60DD83051 /* module.modulemap */; };
+		96ECB34E08D4503D82EDC6749872417D /* Assembly.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E627B64BDA64D344DC603D8C9D6CEF /* Assembly.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B570F68B415AE9995A3194656249822 /* TUSSession.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA9129C765D25EB0434C673B49EDC6A /* TUSSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA715BF38F1AE8E30B8F7ABBBAA315BC /* HMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5FDBA82E4272458CE26C13F974E36E /* HMAC.swift */; };
+		AB6106F2A8158DC262030A6CE5402487 /* Arcane-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4323231C78FA0F45C08260C8CBC4F441 /* Arcane-dummy.m */; };
+		ADF14C330C4B19369C28CED58072141C /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1851D9FE759A8CAD09C8C0C7F07C6606 /* Hash.swift */; };
+		BFC10E22F17D445861F0EE144F6B052B /* TUSFileUploadStore.h in Headers */ = {isa = PBXBuildFile; fileRef = BC06141531DBBDDB29E87E117ACD002B /* TUSFileUploadStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1CDD15C08995AC7BFD98E31A730A93C /* TUSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F5F3651C338BBEADD9592DFC778574 /* TUSData.m */; };
+		C215966ECD4113AB1FEDEC494B06421D /* Template.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B24F89EEA946316A55B3C6733D1C609 /* Template.m */; };
+		C762A25CF8AF40AE003B5AC9FCF6778F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693F6CEB85A64F5F0826AFCDECE30A8E /* Foundation.framework */; };
+		C845D07D9E47625B2361529A54D67592 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FA7F9399392611D64446EDB909184C /* Crypto.swift */; };
+		CB7B662423C1A91056A21BEEA7D8A49C /* TUSResumableUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = B33A68D66EFA5AB92A9DCCD698586EF6 /* TUSResumableUpload.m */; };
+		CC7B654D09CC8485C237C14B72947E0A /* TUSUploadStore.h in Headers */ = {isa = PBXBuildFile; fileRef = EDE30F9D6317329881BCE14385F1FD80 /* TUSUploadStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCABA2FFC62024B9D58F107D489477BC /* APIObjectType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FDB0BFF50CE1C24DCCA792CE629AC95 /* APIObjectType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D62976D557D937FB5A040713640A1B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 693F6CEB85A64F5F0826AFCDECE30A8E /* Foundation.framework */; };
+		DB2DBEFBB13F69C6197993FE354E7296 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC1A998417ED540EC48E9405D60FFC6 /* Data+Extensions.swift */; };
+		E047C875B2465A003141D51A2FA2405E /* Transloadit.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EF535BDDD5E910B132658E1F2CA7AE /* Transloadit.m */; };
+		E5A09092B68F9D60880A709E044B9E3D /* Arcane-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24D8311939E1375361ABCA23756BE8C1 /* Arcane-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E85604B85E86AD510A4CBC49819FF9F3 /* Obfuscator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792004223C52D1B313ABB757B58524C7 /* Obfuscator.swift */; };
+		EE72C93278B56E23FCD658B0B0686E3E /* TUSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE431CD343B3A19531D547757BBECF8 /* TUSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF9E1F88B943AEAE84B1624748BD500C /* TUSKit.xcconfig in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FBB559AD714C585057F5ADBE13219 /* TUSKit.xcconfig */; };
+		FAF25A2BA7E7C116C21228AAE542896E /* APIState.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D85438596A2993BCB1FF8972FBD80C /* APIState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDFAF8013E1A038C55D07A230B778716 /* TUSErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = 10E7AFFC73B043F3A58B49320BADCD60 /* TUSErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF30165C3D56D08719CE31D2FA7390F0 /* Resources.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E2222B22F79D758AB1B9A11FF77C43E /* Resources.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1EC52F8F1FAA9CD407945448FB6BA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7C3186B5A3C2C804D7313FE0FB0593;
+			remoteInfo = TUSKit;
+		};
+		4E0BDDC96D4F852DECE4C0BF578B3FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0EB63D3D95353D7AA68013C9173D81E;
+			remoteInfo = Transloadit;
+		};
+		97AE22DFFA13438177CFBCD43FCADB59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D7C3186B5A3C2C804D7313FE0FB0593;
+			remoteInfo = TUSKit;
+		};
+		B9DDE921587D335DBEB2A9295FBC4B9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0692EFD3C3A029FB8C3B1B2FB75BAE;
+			remoteInfo = Arcane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009099A6811BF8437B03D9856634F4C1 /* TUSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSKit-prefix.pch"; sourceTree = "<group>"; };
+		079B9FA1210F43FAC88D1235256BEEDD /* TUSFileData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSFileData.m; path = Pod/Classes/TUSFileData.m; sourceTree = "<group>"; };
+		0BFAC9D6D07057FCFA69C75ECC47E1ED /* Pods-SminqTransloadItDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SminqTransloadItDemo-dummy.m"; sourceTree = "<group>"; };
+		10E7AFFC73B043F3A58B49320BADCD60 /* TUSErrors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSErrors.h; path = Pod/Classes/TUSErrors.h; sourceTree = "<group>"; };
+		143F7D64FA1CED760F3E744A01C34C67 /* Pods-SminqTransloadItDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SminqTransloadItDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1451F545AA8D4955AC2AA96DD6D6A630 /* TUSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUSKit.xcconfig; sourceTree = "<group>"; };
+		1851D9FE759A8CAD09C8C0C7F07C6606 /* Hash.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hash.swift; path = Sources/Hash.swift; sourceTree = "<group>"; };
+		19A84F9C40D66158BC73968C88EB07DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BF8C200A0A3CFD5EB335CFE6E339A3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FF0EA6CF7F13A31722A4E728BEFBB24 /* Transloadit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Transloadit-dummy.m"; sourceTree = "<group>"; };
+		24D8311939E1375361ABCA23756BE8C1 /* Arcane-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-umbrella.h"; sourceTree = "<group>"; };
+		284AAD6CCAAE9564964B3E3F5F8D64AA /* Pods-SminqTransloadItDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SminqTransloadItDemo-umbrella.h"; sourceTree = "<group>"; };
+		2FD9C2E5E06D76FF3D288E652DFF5BA7 /* Template.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Template.h; path = Transloadit/Classes/Resources/Template/Template.h; sourceTree = "<group>"; };
+		30A6782FC1EEFE0F5997650AFB3563BF /* Pods-SminqTransloadItDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SminqTransloadItDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35E627B64BDA64D344DC603D8C9D6CEF /* Assembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Assembly.h; path = Transloadit/Classes/Resources/API/Assembly.h; sourceTree = "<group>"; };
+		361387148A395FDFDBB81046C985B171 /* Transloadit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Transloadit.framework; path = Transloadit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A3FBB559AD714C585057F5ADBE13219 /* TUSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = TUSKit.xcconfig; path = Pod/Classes/TUSKit.xcconfig; sourceTree = "<group>"; };
+		3B911FA0CB82249887D7760B17772173 /* TransloaditProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransloaditProtocol.h; path = Transloadit/Classes/TransloaditProtocol.h; sourceTree = "<group>"; };
+		4323231C78FA0F45C08260C8CBC4F441 /* Arcane-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Arcane-dummy.m"; sourceTree = "<group>"; };
+		46F5F3651C338BBEADD9592DFC778574 /* TUSData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSData.m; path = Pod/Classes/TUSData.m; sourceTree = "<group>"; };
+		4A0FFD7EF5C852A57C73E6E2D1125A82 /* TUSAssetData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSAssetData.m; path = Pod/Classes/TUSAssetData.m; sourceTree = "<group>"; };
+		4B4DC06E5ABBEEB225BE83671AD290B2 /* NSString+Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Utils.m"; path = "Transloadit/Classes/NSString+Utils.m"; sourceTree = "<group>"; };
+		4CAB9A1D268BE7EE7F159E751DFFDB6C /* Arcane.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Arcane.framework; path = Arcane.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D10E2870BF58C0C7B8473E24344403C /* APIObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIObject.h; path = Transloadit/Classes/Resources/API/APIObject.h; sourceTree = "<group>"; };
+		4FAAD7DD0A9564FDC5B1D79BB9044BFC /* Pods_SminqTransloadItDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SminqTransloadItDemo.framework; path = "Pods-SminqTransloadItDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53FA7F9399392611D64446EDB909184C /* Crypto.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Crypto.swift; path = Sources/Crypto.swift; sourceTree = "<group>"; };
+		5AFEB2CF5E040A587EAEE2114778D641 /* Arcane.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Arcane.modulemap; sourceTree = "<group>"; };
+		5F9591853D5F5C164062C611D4138DD5 /* TUSUploadStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSUploadStore.m; path = Pod/Classes/TUSUploadStore.m; sourceTree = "<group>"; };
+		60064B4BEA3B348665E07368BC6573B2 /* TransloaditRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TransloaditRequest.m; path = Transloadit/Classes/TransloaditRequest.m; sourceTree = "<group>"; };
+		62EF535BDDD5E910B132658E1F2CA7AE /* Transloadit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Transloadit.m; path = Transloadit/Classes/Transloadit.m; sourceTree = "<group>"; };
+		67E1EFB5962AFC2FDD04894FB00FB1F2 /* Step.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Step.m; path = Transloadit/Classes/Resources/API/Step.m; sourceTree = "<group>"; };
+		693F6CEB85A64F5F0826AFCDECE30A8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D60CA852285CB782DCF11741A7E2ADE /* TUSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TUSKit-dummy.m"; sourceTree = "<group>"; };
+		6D6B1ECB47BF122C4080C20F178D4C55 /* Step.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Step.h; path = Transloadit/Classes/Resources/API/Step.h; sourceTree = "<group>"; };
+		6DB32F9084F04C5EFC4AC72631906687 /* NSString+Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Utils.h"; path = "Transloadit/Classes/NSString+Utils.h"; sourceTree = "<group>"; };
+		6F351E07BFF92E70E4060EBC30997CBC /* TUSResumableUpload+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TUSResumableUpload+Private.h"; path = "Pod/Classes/TUSResumableUpload+Private.h"; sourceTree = "<group>"; };
+		6FE431CD343B3A19531D547757BBECF8 /* TUSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSKit-umbrella.h"; sourceTree = "<group>"; };
+		7331D60900870EB2D17245AD22C5518D /* Assembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Assembly.m; path = Transloadit/Classes/Resources/API/Assembly.m; sourceTree = "<group>"; };
+		792004223C52D1B313ABB757B58524C7 /* Obfuscator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Obfuscator.swift; path = Sources/Obfuscator.swift; sourceTree = "<group>"; };
+		7A1A28478B32235DA5B56AD8600A1898 /* AES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AES.swift; path = Sources/AES.swift; sourceTree = "<group>"; };
+		7E2222B22F79D758AB1B9A11FF77C43E /* Resources.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = Transloadit/Classes/Resources/Resources.h; sourceTree = "<group>"; };
+		817C341980F6536F2AF9EA62C6572095 /* TUSResumableUpload.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSResumableUpload.h; path = Pod/Classes/TUSResumableUpload.h; sourceTree = "<group>"; };
+		86149456917070DA87B73E6F9E4F94B8 /* Transloadit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Transloadit.xcconfig; sourceTree = "<group>"; };
+		8623F42DB11792B1E433AAD54E847D1B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		890201520E1F6C506DA2E522C6D8B576 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89999121D0D7B8B3BE09D27F2F95CE51 /* Transloadit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transloadit-umbrella.h"; sourceTree = "<group>"; };
+		8E2B7710BBB8F9DC634DDC5DE288E9F7 /* TUSKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSKit.h; path = Pod/Classes/TUSKit.h; sourceTree = "<group>"; };
+		8FDB0BFF50CE1C24DCCA792CE629AC95 /* APIObjectType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIObjectType.h; path = Transloadit/Classes/Resources/API/APIObjectType.h; sourceTree = "<group>"; };
+		938ABAB8804C6776953AC5C175F0A842 /* TUSSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSSession.m; path = Pod/Classes/TUSSession.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2863C77F42A0463AE5E84C105E0269 /* TUSFileUploadStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSFileUploadStore.m; path = Pod/Classes/TUSFileUploadStore.m; sourceTree = "<group>"; };
+		9A5FDBA82E4272458CE26C13F974E36E /* HMAC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HMAC.swift; path = Sources/HMAC.swift; sourceTree = "<group>"; };
+		9B24F89EEA946316A55B3C6733D1C609 /* Template.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Template.m; path = Transloadit/Classes/Resources/Template/Template.m; sourceTree = "<group>"; };
+		9CBFFA56433C41862B184B329DFD954C /* Pods-SminqTransloadItDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SminqTransloadItDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		9DEB7D822F0F209A9D0262D8666FC3B0 /* TUSAssetData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSAssetData.h; path = Pod/Classes/TUSAssetData.h; sourceTree = "<group>"; };
+		A9FE7667B230C75D2FA1DC78361F93F9 /* TUSErrors.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSErrors.m; path = Pod/Classes/TUSErrors.m; sourceTree = "<group>"; };
+		AA25D916567A9B889B457B14D5DA1A89 /* Pods-SminqTransloadItDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SminqTransloadItDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B33A68D66EFA5AB92A9DCCD698586EF6 /* TUSResumableUpload.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSResumableUpload.m; path = Pod/Classes/TUSResumableUpload.m; sourceTree = "<group>"; };
+		BC06141531DBBDDB29E87E117ACD002B /* TUSFileUploadStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSFileUploadStore.h; path = Pod/Classes/TUSFileUploadStore.h; sourceTree = "<group>"; };
+		C26B5F3E2EEBB0AD0527316E2B424056 /* Pods-SminqTransloadItDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SminqTransloadItDemo.modulemap"; sourceTree = "<group>"; };
+		C5473095F3E29FD3521AC42242DE81A0 /* Pods-SminqTransloadItDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SminqTransloadItDemo-frameworks.sh"; sourceTree = "<group>"; };
+		CE21D0C4187BC380E05E52ACB964AF6A /* Arcane.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Arcane.xcconfig; sourceTree = "<group>"; };
+		D0412E78CB7726F0CB890324BE827C63 /* Transloadit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Transloadit.h; path = Transloadit/Classes/Transloadit.h; sourceTree = "<group>"; };
+		D25556FB86DE1ED6DB3BD39ED86EEF3B /* Transloadit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Transloadit-prefix.pch"; sourceTree = "<group>"; };
+		D2B40852B12FDA3A104660DC63814FBF /* TUSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TUSKit.framework; path = TUSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4062DD4F2803562DEB7A61FA2C12278 /* TUSFileData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSFileData.h; path = Pod/Classes/TUSFileData.h; sourceTree = "<group>"; };
+		D59850CB1FB7D75A568DD71C68BE9EC8 /* TUSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA9129C765D25EB0434C673B49EDC6A /* TUSSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSSession.h; path = Pod/Classes/TUSSession.h; sourceTree = "<group>"; };
+		DEC1A78F5DB5A2ABFE924E321ADDBE10 /* Base64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Base64.swift; path = Sources/Base64.swift; sourceTree = "<group>"; };
+		DFEA68B3D8016C2705B44DD49AA92816 /* TUSData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSData.h; path = Pod/Classes/TUSData.h; sourceTree = "<group>"; };
+		E00E6BD167FA22256C84960BDE47C8F6 /* Pods-SminqTransloadItDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SminqTransloadItDemo-resources.sh"; sourceTree = "<group>"; };
+		E96852690970876D1D356183D8F8CD5B /* Transloadit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Transloadit.modulemap; sourceTree = "<group>"; };
+		E9D85438596A2993BCB1FF8972FBD80C /* APIState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APIState.h; path = Transloadit/Classes/Resources/API/APIState.h; sourceTree = "<group>"; };
+		EDE30F9D6317329881BCE14385F1FD80 /* TUSUploadStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSUploadStore.h; path = Pod/Classes/TUSUploadStore.h; sourceTree = "<group>"; };
+		F04AD86C507ACC43A75BD150CC2AAAD7 /* TransloaditRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransloaditRequest.h; path = Transloadit/Classes/TransloaditRequest.h; sourceTree = "<group>"; };
+		F1EC93BCA46B5A6CA2206176933E990A /* Arcane-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Arcane-prefix.pch"; sourceTree = "<group>"; };
+		F9E50F06F6BDCBDEFE5B7CA60DD83051 /* module.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; name = module.modulemap; path = Transloadit/Classes/CCommonCrypto/module.modulemap; sourceTree = "<group>"; };
+		FA6A2C9C292B56E31810308DFED9E1DA /* TransloaditDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransloaditDelegate.h; path = Transloadit/Classes/TransloaditDelegate.h; sourceTree = "<group>"; };
+		FAE97762D2B2BE6C4820C98211FB0E72 /* URLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = URLConstants.h; path = Transloadit/Classes/Resources/API/URLConstants.h; sourceTree = "<group>"; };
+		FBC1A998417ED540EC48E9405D60FFC6 /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/Data+Extensions.swift"; sourceTree = "<group>"; };
+		FC3AA8348FF73A39F593127472DD1122 /* TUSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TUSKit.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044956C3645B218CF942E022EDFBE7C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8382FBE22BC03707667F3DC77717B03C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C56FA0CF0F6BDA3E9D8FD6E224CFDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C762A25CF8AF40AE003B5AC9FCF6778F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90904C6C7B2080295E3F885DB2BA4F5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D62976D557D937FB5A040713640A1B25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F0F85DA5295063B066EE8D0FC86292 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78E57A79E7E3D5F7229CE119F7DC5301 /* Foundation.framework in Frameworks */,
+				6695EC0AB76575C0B2B1F8153FAA52D1 /* TUSKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A55F3E503473F340A0C58957F885C7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				693F6CEB85A64F5F0826AFCDECE30A8E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		29084131309C90B06FA97FED58C41E98 /* Arcane */ = {
+			isa = PBXGroup;
+			children = (
+				7A1A28478B32235DA5B56AD8600A1898 /* AES.swift */,
+				DEC1A78F5DB5A2ABFE924E321ADDBE10 /* Base64.swift */,
+				53FA7F9399392611D64446EDB909184C /* Crypto.swift */,
+				FBC1A998417ED540EC48E9405D60FFC6 /* Data+Extensions.swift */,
+				1851D9FE759A8CAD09C8C0C7F07C6606 /* Hash.swift */,
+				9A5FDBA82E4272458CE26C13F974E36E /* HMAC.swift */,
+				792004223C52D1B313ABB757B58524C7 /* Obfuscator.swift */,
+				CCE47B869A600F17AB0F9CD37EC29DEE /* Support Files */,
+			);
+			name = Arcane;
+			path = Arcane;
+			sourceTree = "<group>";
+		};
+		2BFDCE4B18528A24F28C9D28F8065E83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D59850CB1FB7D75A568DD71C68BE9EC8 /* TUSKit.framework */,
+				26A55F3E503473F340A0C58957F885C7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C2908EC6F60C8EC3B415EC6C9DE516D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29084131309C90B06FA97FED58C41E98 /* Arcane */,
+				6D78C8A95F4DC3FE69F9DF5A69B49EA3 /* Transloadit */,
+				6FF65043317F28BC0C6B20167DED1021 /* TUSKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D78C8A95F4DC3FE69F9DF5A69B49EA3 /* Transloadit */ = {
+			isa = PBXGroup;
+			children = (
+				4D10E2870BF58C0C7B8473E24344403C /* APIObject.h */,
+				8FDB0BFF50CE1C24DCCA792CE629AC95 /* APIObjectType.h */,
+				E9D85438596A2993BCB1FF8972FBD80C /* APIState.h */,
+				35E627B64BDA64D344DC603D8C9D6CEF /* Assembly.h */,
+				7331D60900870EB2D17245AD22C5518D /* Assembly.m */,
+				F9E50F06F6BDCBDEFE5B7CA60DD83051 /* module.modulemap */,
+				6DB32F9084F04C5EFC4AC72631906687 /* NSString+Utils.h */,
+				4B4DC06E5ABBEEB225BE83671AD290B2 /* NSString+Utils.m */,
+				7E2222B22F79D758AB1B9A11FF77C43E /* Resources.h */,
+				6D6B1ECB47BF122C4080C20F178D4C55 /* Step.h */,
+				67E1EFB5962AFC2FDD04894FB00FB1F2 /* Step.m */,
+				2FD9C2E5E06D76FF3D288E652DFF5BA7 /* Template.h */,
+				9B24F89EEA946316A55B3C6733D1C609 /* Template.m */,
+				D0412E78CB7726F0CB890324BE827C63 /* Transloadit.h */,
+				62EF535BDDD5E910B132658E1F2CA7AE /* Transloadit.m */,
+				FA6A2C9C292B56E31810308DFED9E1DA /* TransloaditDelegate.h */,
+				3B911FA0CB82249887D7760B17772173 /* TransloaditProtocol.h */,
+				F04AD86C507ACC43A75BD150CC2AAAD7 /* TransloaditRequest.h */,
+				60064B4BEA3B348665E07368BC6573B2 /* TransloaditRequest.m */,
+				FAE97762D2B2BE6C4820C98211FB0E72 /* URLConstants.h */,
+				A3D71BF69C2138E96B9476FC6A2E02F7 /* Support Files */,
+			);
+			name = Transloadit;
+			path = Transloadit;
+			sourceTree = "<group>";
+		};
+		6FF65043317F28BC0C6B20167DED1021 /* TUSKit */ = {
+			isa = PBXGroup;
+			children = (
+				9DEB7D822F0F209A9D0262D8666FC3B0 /* TUSAssetData.h */,
+				4A0FFD7EF5C852A57C73E6E2D1125A82 /* TUSAssetData.m */,
+				DFEA68B3D8016C2705B44DD49AA92816 /* TUSData.h */,
+				46F5F3651C338BBEADD9592DFC778574 /* TUSData.m */,
+				10E7AFFC73B043F3A58B49320BADCD60 /* TUSErrors.h */,
+				A9FE7667B230C75D2FA1DC78361F93F9 /* TUSErrors.m */,
+				D4062DD4F2803562DEB7A61FA2C12278 /* TUSFileData.h */,
+				079B9FA1210F43FAC88D1235256BEEDD /* TUSFileData.m */,
+				BC06141531DBBDDB29E87E117ACD002B /* TUSFileUploadStore.h */,
+				9A2863C77F42A0463AE5E84C105E0269 /* TUSFileUploadStore.m */,
+				8E2B7710BBB8F9DC634DDC5DE288E9F7 /* TUSKit.h */,
+				3A3FBB559AD714C585057F5ADBE13219 /* TUSKit.xcconfig */,
+				817C341980F6536F2AF9EA62C6572095 /* TUSResumableUpload.h */,
+				B33A68D66EFA5AB92A9DCCD698586EF6 /* TUSResumableUpload.m */,
+				6F351E07BFF92E70E4060EBC30997CBC /* TUSResumableUpload+Private.h */,
+				DAA9129C765D25EB0434C673B49EDC6A /* TUSSession.h */,
+				938ABAB8804C6776953AC5C175F0A842 /* TUSSession.m */,
+				EDE30F9D6317329881BCE14385F1FD80 /* TUSUploadStore.h */,
+				5F9591853D5F5C164062C611D4138DD5 /* TUSUploadStore.m */,
+				AA3416A397E474B791D116CBFCE748A7 /* Support Files */,
+			);
+			name = TUSKit;
+			path = TUSKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2BFDCE4B18528A24F28C9D28F8065E83 /* Frameworks */,
+				3C2908EC6F60C8EC3B415EC6C9DE516D /* Pods */,
+				D0AD325279CD761B2C9203C8DA0D470A /* Products */,
+				EC616EDCE5ED73C6EF7019E8C6B5D697 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89EA48FC3C095F965E9283D44A33C4CB /* Pods-SminqTransloadItDemo */ = {
+			isa = PBXGroup;
+			children = (
+				19BF8C200A0A3CFD5EB335CFE6E339A3 /* Info.plist */,
+				C26B5F3E2EEBB0AD0527316E2B424056 /* Pods-SminqTransloadItDemo.modulemap */,
+				30A6782FC1EEFE0F5997650AFB3563BF /* Pods-SminqTransloadItDemo-acknowledgements.markdown */,
+				9CBFFA56433C41862B184B329DFD954C /* Pods-SminqTransloadItDemo-acknowledgements.plist */,
+				0BFAC9D6D07057FCFA69C75ECC47E1ED /* Pods-SminqTransloadItDemo-dummy.m */,
+				C5473095F3E29FD3521AC42242DE81A0 /* Pods-SminqTransloadItDemo-frameworks.sh */,
+				E00E6BD167FA22256C84960BDE47C8F6 /* Pods-SminqTransloadItDemo-resources.sh */,
+				284AAD6CCAAE9564964B3E3F5F8D64AA /* Pods-SminqTransloadItDemo-umbrella.h */,
+				143F7D64FA1CED760F3E744A01C34C67 /* Pods-SminqTransloadItDemo.debug.xcconfig */,
+				AA25D916567A9B889B457B14D5DA1A89 /* Pods-SminqTransloadItDemo.release.xcconfig */,
+			);
+			name = "Pods-SminqTransloadItDemo";
+			path = "Target Support Files/Pods-SminqTransloadItDemo";
+			sourceTree = "<group>";
+		};
+		A3D71BF69C2138E96B9476FC6A2E02F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				890201520E1F6C506DA2E522C6D8B576 /* Info.plist */,
+				E96852690970876D1D356183D8F8CD5B /* Transloadit.modulemap */,
+				86149456917070DA87B73E6F9E4F94B8 /* Transloadit.xcconfig */,
+				1FF0EA6CF7F13A31722A4E728BEFBB24 /* Transloadit-dummy.m */,
+				D25556FB86DE1ED6DB3BD39ED86EEF3B /* Transloadit-prefix.pch */,
+				89999121D0D7B8B3BE09D27F2F95CE51 /* Transloadit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Transloadit";
+			sourceTree = "<group>";
+		};
+		AA3416A397E474B791D116CBFCE748A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8623F42DB11792B1E433AAD54E847D1B /* Info.plist */,
+				FC3AA8348FF73A39F593127472DD1122 /* TUSKit.modulemap */,
+				1451F545AA8D4955AC2AA96DD6D6A630 /* TUSKit.xcconfig */,
+				6D60CA852285CB782DCF11741A7E2ADE /* TUSKit-dummy.m */,
+				009099A6811BF8437B03D9856634F4C1 /* TUSKit-prefix.pch */,
+				6FE431CD343B3A19531D547757BBECF8 /* TUSKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TUSKit";
+			sourceTree = "<group>";
+		};
+		CCE47B869A600F17AB0F9CD37EC29DEE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AFEB2CF5E040A587EAEE2114778D641 /* Arcane.modulemap */,
+				CE21D0C4187BC380E05E52ACB964AF6A /* Arcane.xcconfig */,
+				4323231C78FA0F45C08260C8CBC4F441 /* Arcane-dummy.m */,
+				F1EC93BCA46B5A6CA2206176933E990A /* Arcane-prefix.pch */,
+				24D8311939E1375361ABCA23756BE8C1 /* Arcane-umbrella.h */,
+				19A84F9C40D66158BC73968C88EB07DF /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Arcane";
+			sourceTree = "<group>";
+		};
+		D0AD325279CD761B2C9203C8DA0D470A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB9A1D268BE7EE7F159E751DFFDB6C /* Arcane.framework */,
+				4FAAD7DD0A9564FDC5B1D79BB9044BFC /* Pods_SminqTransloadItDemo.framework */,
+				361387148A395FDFDBB81046C985B171 /* Transloadit.framework */,
+				D2B40852B12FDA3A104660DC63814FBF /* TUSKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC616EDCE5ED73C6EF7019E8C6B5D697 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89EA48FC3C095F965E9283D44A33C4CB /* Pods-SminqTransloadItDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0F1F41DCA3C74A0C6045417AF5979CA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A09092B68F9D60880A709E044B9E3D /* Arcane-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15D2631E995AA8A506B11275248B0246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E934B488D8BC92AD28A3432D57581C /* APIObject.h in Headers */,
+				CCABA2FFC62024B9D58F107D489477BC /* APIObjectType.h in Headers */,
+				FAF25A2BA7E7C116C21228AAE542896E /* APIState.h in Headers */,
+				96ECB34E08D4503D82EDC6749872417D /* Assembly.h in Headers */,
+				2BF5C18C50471A43483BC768AE23959C /* NSString+Utils.h in Headers */,
+				FF30165C3D56D08719CE31D2FA7390F0 /* Resources.h in Headers */,
+				6A11CB1B8B3352CBF289FBE2DAA5E00B /* Step.h in Headers */,
+				1CE048008F546961178B5A09C4692B7A /* Template.h in Headers */,
+				7798058A2D23FD9530525EB4849CDC80 /* Transloadit-umbrella.h in Headers */,
+				3C475C8D53D31A6CB49CCC42DEE9365F /* Transloadit.h in Headers */,
+				590DF9F94A3C32433F4601F14CBA8B20 /* TransloaditDelegate.h in Headers */,
+				3B41F0A97376F800A03E3531A52132DC /* TransloaditProtocol.h in Headers */,
+				55DF5B14DACD40F51908D01954C137CE /* TransloaditRequest.h in Headers */,
+				80C8A9ACA3F6D19C2BA236A96D3885F5 /* URLConstants.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49FBAAB7F985BDF5651D1202573F6577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD36185FE2FDAB8D2BF08A9B5CBEB70 /* TUSAssetData.h in Headers */,
+				70785AF620846E5640342CD0E044A070 /* TUSData.h in Headers */,
+				FDFAF8013E1A038C55D07A230B778716 /* TUSErrors.h in Headers */,
+				27DFCCB4E0CEEBB5FA1CA637182422B6 /* TUSFileData.h in Headers */,
+				BFC10E22F17D445861F0EE144F6B052B /* TUSFileUploadStore.h in Headers */,
+				EE72C93278B56E23FCD658B0B0686E3E /* TUSKit-umbrella.h in Headers */,
+				6E5E525044A6FEB4221A8D5E82728071 /* TUSKit.h in Headers */,
+				88D96D745A61B0529F768AED95A9B6AD /* TUSResumableUpload+Private.h in Headers */,
+				544695999AEBD4F323067C001E7DCE3A /* TUSResumableUpload.h in Headers */,
+				9B570F68B415AE9995A3194656249822 /* TUSSession.h in Headers */,
+				CC7B654D09CC8485C237C14B72947E0A /* TUSUploadStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57611C525935977D1AA19C1C1BDB456E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE3CFDB555047D1C899B552CCED003A /* Pods-SminqTransloadItDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B01FC37097117E2C90BB9AED68FD21E /* Pods-SminqTransloadItDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932B594DA36155E28D08D55599FB3453 /* Build configuration list for PBXNativeTarget "Pods-SminqTransloadItDemo" */;
+			buildPhases = (
+				460FAE4512D9F909177146EDE71D623B /* Sources */,
+				7C56FA0CF0F6BDA3E9D8FD6E224CFDB8 /* Frameworks */,
+				57611C525935977D1AA19C1C1BDB456E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6AB53C3C17068DC525FCAC971E410EA4 /* PBXTargetDependency */,
+				7072E8D596A6B1CBF1DB0BEB58FD3FCD /* PBXTargetDependency */,
+				B0A1C3BD50034C424E8F9986697A2902 /* PBXTargetDependency */,
+			);
+			name = "Pods-SminqTransloadItDemo";
+			productName = "Pods-SminqTransloadItDemo";
+			productReference = 4FAAD7DD0A9564FDC5B1D79BB9044BFC /* Pods_SminqTransloadItDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D7C3186B5A3C2C804D7313FE0FB0593 /* TUSKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82E71FF34B2E9F56CAA5ECC9DA961468 /* Build configuration list for PBXNativeTarget "TUSKit" */;
+			buildPhases = (
+				B52588930112D94FF644F0385D74C165 /* Sources */,
+				044956C3645B218CF942E022EDFBE7C9 /* Frameworks */,
+				49FBAAB7F985BDF5651D1202573F6577 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TUSKit;
+			productName = TUSKit;
+			productReference = D2B40852B12FDA3A104660DC63814FBF /* TUSKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB0692EFD3C3A029FB8C3B1B2FB75BAE /* Arcane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733B08586D19EAAA27CC3A720A8EA169 /* Build configuration list for PBXNativeTarget "Arcane" */;
+			buildPhases = (
+				7AC2764D75AC6A451DB7D71DBDE8BDB9 /* Sources */,
+				90904C6C7B2080295E3F885DB2BA4F5B /* Frameworks */,
+				0F1F41DCA3C74A0C6045417AF5979CA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arcane;
+			productName = Arcane;
+			productReference = 4CAB9A1D268BE7EE7F159E751DFFDB6C /* Arcane.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D0EB63D3D95353D7AA68013C9173D81E /* Transloadit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B89EE48ABB86EB97A94EE027000D33 /* Build configuration list for PBXNativeTarget "Transloadit" */;
+			buildPhases = (
+				75557C96BB62207A40A022EDE1179D5D /* Sources */,
+				D4F0F85DA5295063B066EE8D0FC86292 /* Frameworks */,
+				15D2631E995AA8A506B11275248B0246 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2E68A06FC0C4BDF91E127AE13D1B902 /* PBXTargetDependency */,
+			);
+			name = Transloadit;
+			productName = Transloadit;
+			productReference = 361387148A395FDFDBB81046C985B171 /* Transloadit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D0AD325279CD761B2C9203C8DA0D470A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0692EFD3C3A029FB8C3B1B2FB75BAE /* Arcane */,
+				5B01FC37097117E2C90BB9AED68FD21E /* Pods-SminqTransloadItDemo */,
+				D0EB63D3D95353D7AA68013C9173D81E /* Transloadit */,
+				8D7C3186B5A3C2C804D7313FE0FB0593 /* TUSKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460FAE4512D9F909177146EDE71D623B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A365DBE30C7AEFF92683D27131D1B4 /* Pods-SminqTransloadItDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75557C96BB62207A40A022EDE1179D5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425C8E38D1000C2F306845F55EC9661A /* Assembly.m in Sources */,
+				95732BE0BC10FDF0EB23F609327C525B /* module.modulemap in Sources */,
+				68423D18C7ED6C250DF10ED725851D8E /* NSString+Utils.m in Sources */,
+				4B61B324394617B26B0EBD1426A73719 /* Step.m in Sources */,
+				C215966ECD4113AB1FEDEC494B06421D /* Template.m in Sources */,
+				5D84C6C8E7A9A6DFAD14028F749B2C3A /* Transloadit-dummy.m in Sources */,
+				E047C875B2465A003141D51A2FA2405E /* Transloadit.m in Sources */,
+				4A328C0585B86271CE77E46F8A261FAB /* TransloaditRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AC2764D75AC6A451DB7D71DBDE8BDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58E8BCF88A523B71BA722DFE582F5E34 /* AES.swift in Sources */,
+				AB6106F2A8158DC262030A6CE5402487 /* Arcane-dummy.m in Sources */,
+				88351AED30E8A5B40DFDC807DAF6B8D5 /* Base64.swift in Sources */,
+				C845D07D9E47625B2361529A54D67592 /* Crypto.swift in Sources */,
+				DB2DBEFBB13F69C6197993FE354E7296 /* Data+Extensions.swift in Sources */,
+				ADF14C330C4B19369C28CED58072141C /* Hash.swift in Sources */,
+				AA715BF38F1AE8E30B8F7ABBBAA315BC /* HMAC.swift in Sources */,
+				E85604B85E86AD510A4CBC49819FF9F3 /* Obfuscator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B52588930112D94FF644F0385D74C165 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D9451FB8EA050DC04D344AC44DD4D0 /* TUSAssetData.m in Sources */,
+				C1CDD15C08995AC7BFD98E31A730A93C /* TUSData.m in Sources */,
+				47988086DE6E28A8C651F791EE18D4DB /* TUSErrors.m in Sources */,
+				3129846E585E5622C2C42940B5CDDB55 /* TUSFileData.m in Sources */,
+				2A94EBB41FCDFCCEB1A18407227E92DE /* TUSFileUploadStore.m in Sources */,
+				194FE406F6056611379E8429858923D3 /* TUSKit-dummy.m in Sources */,
+				EF9E1F88B943AEAE84B1624748BD500C /* TUSKit.xcconfig in Sources */,
+				CB7B662423C1A91056A21BEEA7D8A49C /* TUSResumableUpload.m in Sources */,
+				0D154BB25CF40813FB9E3CEE7C2E472B /* TUSSession.m in Sources */,
+				70B0129F289B2AEA18529B740EB4286E /* TUSUploadStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB53C3C17068DC525FCAC971E410EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Arcane;
+			target = AB0692EFD3C3A029FB8C3B1B2FB75BAE /* Arcane */;
+			targetProxy = B9DDE921587D335DBEB2A9295FBC4B9E /* PBXContainerItemProxy */;
+		};
+		7072E8D596A6B1CBF1DB0BEB58FD3FCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TUSKit;
+			target = 8D7C3186B5A3C2C804D7313FE0FB0593 /* TUSKit */;
+			targetProxy = 97AE22DFFA13438177CFBCD43FCADB59 /* PBXContainerItemProxy */;
+		};
+		B0A1C3BD50034C424E8F9986697A2902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Transloadit;
+			target = D0EB63D3D95353D7AA68013C9173D81E /* Transloadit */;
+			targetProxy = 4E0BDDC96D4F852DECE4C0BF578B3FA5 /* PBXContainerItemProxy */;
+		};
+		D2E68A06FC0C4BDF91E127AE13D1B902 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TUSKit;
+			target = 8D7C3186B5A3C2C804D7313FE0FB0593 /* TUSKit */;
+			targetProxy = 3C1EC52F8F1FAA9CD407945448FB6BA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		159162A1CB418C9E310585994B3E789F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE21D0C4187BC380E05E52ACB964AF6A /* Arcane.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Arcane/Arcane-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arcane/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arcane/Arcane.modulemap";
+				PRODUCT_NAME = Arcane;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BE58B42AD2B1D0863EFC0DF8195270A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE21D0C4187BC380E05E52ACB964AF6A /* Arcane.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Arcane/Arcane-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Arcane/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Arcane/Arcane.modulemap";
+				PRODUCT_NAME = Arcane;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7E1F4BE9CD6574E343C42D572AF9F2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1451F545AA8D4955AC2AA96DD6D6A630 /* TUSKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TUSKit/TUSKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUSKit/TUSKit.modulemap";
+				PRODUCT_NAME = TUSKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85B73CBF0EA4C373F83870C6D0C3E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86149456917070DA87B73E6F9E4F94B8 /* Transloadit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Transloadit/Transloadit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Transloadit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Transloadit/Transloadit.modulemap";
+				PRODUCT_NAME = Transloadit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		90C31BA1B9E5788F4709B0C3BE6BF93D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1451F545AA8D4955AC2AA96DD6D6A630 /* TUSKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TUSKit/TUSKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUSKit/TUSKit.modulemap";
+				PRODUCT_NAME = TUSKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		988600DAF2F96876CD1D21AE312BF677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143F7D64FA1CED760F3E744A01C34C67 /* Pods-SminqTransloadItDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SminqTransloadItDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SminqTransloadItDemo/Pods-SminqTransloadItDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SminqTransloadItDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD7E32E398EDC84C36E72C32B6CC7EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA25D916567A9B889B457B14D5DA1A89 /* Pods-SminqTransloadItDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SminqTransloadItDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SminqTransloadItDemo/Pods-SminqTransloadItDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SminqTransloadItDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E179C0A47DB693439497FF08D0B60D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86149456917070DA87B73E6F9E4F94B8 /* Transloadit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Transloadit/Transloadit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Transloadit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Transloadit/Transloadit.modulemap";
+				PRODUCT_NAME = Transloadit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B89EE48ABB86EB97A94EE027000D33 /* Build configuration list for PBXNativeTarget "Transloadit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E179C0A47DB693439497FF08D0B60D10 /* Debug */,
+				85B73CBF0EA4C373F83870C6D0C3E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		733B08586D19EAAA27CC3A720A8EA169 /* Build configuration list for PBXNativeTarget "Arcane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BE58B42AD2B1D0863EFC0DF8195270A /* Debug */,
+				159162A1CB418C9E310585994B3E789F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82E71FF34B2E9F56CAA5ECC9DA961468 /* Build configuration list for PBXNativeTarget "TUSKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C31BA1B9E5788F4709B0C3BE6BF93D /* Debug */,
+				7E1F4BE9CD6574E343C42D572AF9F2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932B594DA36155E28D08D55599FB3453 /* Build configuration list for PBXNativeTarget "Pods-SminqTransloadItDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				988600DAF2F96876CD1D21AE312BF677 /* Debug */,
+				CD7E32E398EDC84C36E72C32B6CC7EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
